@@ -1,2 +1,2 @@
-# sql
-This repository is to save some misc sql script that can be useful
+# USEFUL SNIPPETS
+This repository is to save some misc useful snippets that can be useful
