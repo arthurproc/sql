@@ -1,0 +1,4 @@
+Regex: "[ \n\t]*\.[ \n\t]*(\$[^ \.]+)[ \n\t]*\.[ \n\t]*"
+Replace: {$1}
+Description: Find old php string constructor like: "SELECT * FROM users WHERE id = " . $user_id . ";";
+and replace with "SELECT * FROM users WHERE id = {$user_id};"
